@@ -1,0 +1,98 @@
+header h1 {
+	display: block;
+	color: black;
+	background-color: #ad2800;
+	text-align: center;
+	padding: 50px;
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border: 1px solid none;
+	-webkit-box-shadow: inset -22px 10px 50px 8px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -22px 10px 50px 8px rgba(0,0,0,0.75);
+	box-shadow: inset -22px 10px 50px 8px rgba(0,0,0,0.75);
+	margin-top: -116px;
+	margin-left: 62px;
+	margin-right: 20px;
+	width: 77.5%;
+	font-family: unset;
+	font-size: 60px;
+	text-shadow: 4px 4px 2px rgba(255, 255, 255, 1);
+}
+body {
+	background-image: url("https://rssamboro-web.s3-us-west-1.amazonaws.com/20140910113645-E18-107_PO-150802000000.jpg?v=20150624153756");
+}
+p {
+	padding: 10px 5px 10px 5px;
+	display: block;
+	background-color: #ff8059;
+	border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+	text-align: left;
+    font-size: 29px;
+    width: 27%;
+    padding: -14px;
+    margin: -207px -192px;
+}
+.aqui {
+
+	display: block;
+	background-color: white;
+	margin: -50px 138px -30px 63px;
+	padding: 236px;
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border: 1px none #f7eeea;
+	-webkit-box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
+	-moz-box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
+	box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
+
+}
+
+
+
+img {
+	width: 4%;
+	margin: -8px;
+	border: 8px;
+	padding: 56px 132px 0px 124px;
+	-webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  }
+  @keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  } 
+	
+a {
+	padding: 0px;
+	width: 11%;
+	font-size: 24px;
+	border: 23px;
+	text-shadow: 4px 4px 2px rgba(255, 255, 255, 1);
+	font-family: cursive;
+	margin: 19px -84px 20px 93px;
+}

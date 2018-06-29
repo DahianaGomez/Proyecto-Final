@@ -141,16 +141,16 @@ img {
 
 
 button {
-	    margin: 10px -101px 10px 90px;
+	  
 
 	background-color: #ad2800;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+   
 }
 
 button:hover {
 	
-
+-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
     background-color: white;
     color: black;
 }

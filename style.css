@@ -3,7 +3,7 @@ header  {
 	
 	background-color: #ad2800;
 	
-	padding: 50px;
+	    padding: 40px 11px;
 	border-radius: 10px 10px 0px 0px;
 	-moz-border-radius: 10px 10px 0px 0px;
 	-webkit-border-radius: 10px 10px 0px 0px;
@@ -11,7 +11,8 @@ header  {
 	-webkit-box-shadow: inset -22px 10px 50px 8px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset -22px 10px 50px 8px rgba(0,0,0,0.75);
 	box-shadow: inset -22px 10px 50px 8px rgba(0,0,0,0.75);
-	margin-top: -116px;
+	margin-top: -809px;
+    margin-bottom: -128px;
 	margin-left: 62px;
 	margin-right: 20px;
 	width: 77.5%;
@@ -100,7 +101,7 @@ body {
 	background-image: url("https://rssamboro-web.s3-us-west-1.amazonaws.com/20140910113645-E18-107_PO-150802000000.jpg?v=20150624153756");
 }
 p {
-	padding: 10px 5px 10px 5px;
+	    padding: 40px 11px;
 	display: block;
 	background-color: #ff8059;
 	border-radius: 10px 10px 10px 10px;
@@ -113,12 +114,15 @@ border: 0px solid #000000;
     padding: -14px;
     margin: -207px -192px;
 }
+.cabecera {
+          margin: 5px -174px -18px 146px;
+}
 .aqui {
 
 	display: block;
 	background-color: white;
-	margin: -50px 138px -30px 63px;
-	padding: 236px;
+margin: -50px 47px -30px 208px;
+    padding: 334px;
 	border-radius: 0px 0px 10px 10px;
 	-moz-border-radius: 0px 0px 10px 10px;
 	-webkit-border-radius: 0px 0px 10px 10px;
@@ -132,25 +136,27 @@ border: 0px solid #000000;
 
 
 img {
-	width: 4%;
-	margin: -8px;
-	border: 8px;
-	padding: 56px 132px 0px 124px;
+    width: 3%;
+    margin: -5px 8px -20px -9px;
+    border: 9px;
+    padding: 56px 132px 0px 124px;
 	
   } 
 
 
-button {
-	  
-
-	background-color: #ad2800;
-   
+.boton {
+	    margin-bottom: -98px;
+    margin-left: 183px;
+    background-color: #ad2800;
+    transition: all 1s ease;
+    position: relative;
+    margin-right: -114px;
+    margin-top: -131px;
+    padding-top: 4px;
+    border-top: 30px;
+}
+.boton:hover {
+  background: black;
+  color: #fff ;
 }
 
-button:hover {
-	
--webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    background-color: white;
-    color: black;
-}

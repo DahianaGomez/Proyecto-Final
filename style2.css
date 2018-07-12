@@ -117,3 +117,18 @@ border: 0px solid #000000;
 .cabecera {
          margin: 5px -174px -18px 146px;
 }
+.aqui {
+
+    display: block;
+    background-color: white;
+margin: 59px 47px -30px 208px;
+   padding: 334px;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border: 1px none #f7eeea;
+    -webkit-box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
+    -moz-box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
+    box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
+
+}

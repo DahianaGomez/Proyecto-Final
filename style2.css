@@ -122,7 +122,7 @@ border: 0px solid #000000;
     display: block;
     background-color: white;
 margin: 59px 47px -30px 208px;
-   padding: 334px;
+   padding: 84px 320px 560px 317px;
     border-radius: 0px 0px 10px 10px;
     -moz-border-radius: 0px 0px 10px 10px;
     -webkit-border-radius: 0px 0px 10px 10px;
@@ -131,4 +131,19 @@ margin: 59px 47px -30px 208px;
     -moz-box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
     box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
 
+}
+.merecumbe {
+        margin: -67px 6px -44px -297px;
+    width: 23%;
+
+}
+.boton1 {
+    background-color: black;
+    color: white;
+     transition: all 1s ease;
+    position: relative;
+}
+.boton1:hover {
+  background: #ed6168;
+  color: #fff ;
 }

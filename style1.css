@@ -103,8 +103,8 @@ h1 {
     margin: 12px 10px -41px 41px;
   }
 
-  .mapa {
-        margin: 128px 14px -120px 1px;
+  .mapa {    
+ margin: 93px 22px -120px 47px;
   }
 
 body {
@@ -131,7 +131,7 @@ border: 0px solid #000000;
 
 	display: block;
 	background-color: white;
-margin: -674px 47px -30px 208px;
+  margin: -543px 74px -30px 208px;
     padding: 334px;
 	border-radius: 0px 0px 10px 10px;
 	-moz-border-radius: 0px 0px 10px 10px;

@@ -25,7 +25,7 @@ jQuery(document).ready(function($){
 			}
 		}
 		)
-});
+})
 $ ('.registro').on(
 	'submit', function(r){
 		r.preventDefault();
@@ -44,7 +44,7 @@ $ ('.registro').on(
 				alert('Registro con exito');
 			})
 			.catch(function(error) {
-				alert('No se registro con exito')
+				alert('No se registro con exito');
 
 			});
 		}

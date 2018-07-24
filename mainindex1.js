@@ -1,37 +1,36 @@
 
-  // Initialize Firebase
+   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyBNc2Ye2xjMU5QYRztEM8dJcgUlhWtWdNc",
     authDomain: "foodplace-c4798.firebaseapp.com",
     databaseURL: "https://foodplace-c4798.firebaseio.com",
     projectId: "foodplace-c4798",
-    storageBucket: "",
+    storageBucket: "foodplace-c4798.appspot.com",
     messagingSenderId: "510515919484"
   };
   firebase.initializeApp(config);
 
-  jQuery(document).ready(function($) {
-
-  });
-
-  const userName = ();
+  var data = {};
+  data.userName = 'Dahiana';
   const database = firebase.database();
 
   $('button').click( function( event ) {
   event.preventDefault();
-  var mensaje = $('#mensaje').val();
+  console.log('data', data);
+  data.mensaje = $('#mensaje').val();
+  ponerMensaje(data);
 
-  var data = { usuario: userName, mensaje: mensaje };
-  database.ref('chat/').push(data, function(err) {
+  //var data = { usuario: userName, mensaje: mensaje };
+  /*database.ref('chat/').push(data, function(err) {
     if (err) { throw err;}
     else { 
-      console.info('Guardamos la informacion');
-      ponerMensaje(data);
+      console.info('Guardamos la información');
       $('#mensaje').val('');
     }
-  });
-
+  });*/
 });
 
 function ponerMensaje (dahia){
-  $('#caja').append('<p>' + dahia.usuario + ': ' + dahia.mensaje +  '<p>');
+  console.log('data', dahia);
+  $('.caja').append('<p>' + dahia.userName + ': ' + dahia.mensaje +  '<p>');
+}

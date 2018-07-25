@@ -32,5 +32,6 @@
 
 function ponerMensaje (dahia){
   console.log('data', dahia);
-  $('.caja').append('<p>' + dahia.userName + ': ' + dahia.mensaje +  '<p>');
+  $('.caja').append(dahia.userName + ": " + dahia.mensaje);
 }
+

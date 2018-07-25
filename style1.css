@@ -123,7 +123,7 @@ p {
 	display: block;
 	background-color: white;
   margin: -560px 74px -30px 208px;
-  padding: 37px 304px 786px 353px;
+  padding: 37px 304px 606px 353px;
   border-radius: 0px 0px 10px 10px;
   -moz-border-radius: 0px 0px 10px 10px;
   -webkit-border-radius: 0px 0px 10px 10px;
@@ -171,15 +171,17 @@ img {
 }
 .caja {
   display: block;
-          padding: 14px 4px 16px 16px;
+          padding: 292px 4px 16px 16px;
     margin: 41px 10px 28px -310px;
       border-radius: 10px 10px 10px 10px;
 -moz-border-radius: 10px 10px 10px 10px;
 -webkit-border-radius: 10px 10px 10px 10px;
 border: 2px solid #000000;
+
 }
 #mensaje {
       margin: -12px -1px -23px -307px;
+      
 }
 p {
       width: 97%;

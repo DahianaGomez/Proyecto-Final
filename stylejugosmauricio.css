@@ -100,6 +100,9 @@ h2 {
   font-family: cursive;
   margin: 12px 10px -41px 41px;
 }
+body {
+  background-image: url("https://rssamboro-web.s3-us-west-1.amazonaws.com/20140910113645-E18-107_PO-150802000000.jpg?v=20150624153756");
+}
 
 .cabecera {
   margin: 5px -174px -18px 146px;

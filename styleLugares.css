@@ -98,7 +98,7 @@ h1 {
 }
 
 body {
-    background-image: url("https://rssamboro-web.s3-us-west-1.amazonaws.com/20140910113645-E18-107_PO-150802000000.jpg?v=20150624153756");
+    background-image:url("imagenes/espagueti.jpg")
 }
 p {
     padding: 40px 11px;
@@ -135,4 +135,26 @@ p {
 .mapa {
   margin-top: -53px;
   margin-left: 63px;
+  border: -20px;
+  border-color: #f7eeea;
+}
+button {
+  margin-bottom: -98px;
+  margin-left: -319px;
+  background-color: #ad2800;
+  transition: all 1s ease;
+  position: relative;
+  margin-right: -114px;
+  margin-top: -131px;
+  padding: 3px 31px;
+  border-top: 30px;
+}
+button:hover {
+  background: black;
+  color: #fff ;
+}
+
+.jugosMauricio{
+      margin-left: -201px;
+    padding: 9px 25px;
 }

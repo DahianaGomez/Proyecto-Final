@@ -49,3 +49,10 @@ $ ('.registro').on(
 			});
 		}
 	})
+
+firebase.auth().onAuthSta
+teChanged(function(user){
+	if (!user) {
+		location.href="../login.html";
+	}
+})

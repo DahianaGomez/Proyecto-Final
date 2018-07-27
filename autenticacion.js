@@ -11,7 +11,7 @@ jQuery(document).ready(function($){
 				alert('Debe ingresar su correo');
 			}
 			else if (!password){
-				alert('Debe ingresar una contrasena');
+				alert('Debe ingresar una contraseña');
 			}
 			else {
 
@@ -36,7 +36,7 @@ $ ('.registro').on(
 			alert('Debe ingresar su correo');
 		}
 		else if (!password){
-			alert('Debe ingresar una contrasena');
+			alert('Debe ingresar una contraseña');
 		}
 		else {
 			firebase.auth().createUserWithEmailAndPassword(email, password)
@@ -49,10 +49,3 @@ $ ('.registro').on(
 			});
 		}
 	})
-
-firebase.auth().onAuthSta
-teChanged(function(user){
-	if (!user) {
-		location.href="../login.html";
-	}
-})

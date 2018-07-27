@@ -10,4 +10,4 @@
   };
   firebase.initializeApp(config);
 
-  const database = firebase.database();
+ const database = firebase.database();

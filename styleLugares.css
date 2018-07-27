@@ -133,10 +133,11 @@ p {
 
 }
 .mapa {
-  margin-top: -178px;
-  margin-left: 63px;
-  border: -20px;
-  border-color: #f7eeea;
+margin-top: -39px;
+    margin-left: 63px;
+    border: -20px;
+    border-color: #f7eeea;
+    margin-bottom: -425px;
 }
 button {
   margin-bottom: -98px;
@@ -155,6 +156,7 @@ button:hover {
 }
 
 .jugosMauricio{
+  margin-top: 10px;
       margin-left: -201px;
     padding: 9px 25px;
 }
@@ -179,6 +181,7 @@ button:hover {
     padding: 10px 8px;
 }
 .empanadas{
-margin: -22px 61px 10px -201px;
+margin: 11px 61px 10px -201px;
     padding: 10px 38px;
 }
+.

@@ -17,7 +17,7 @@ jQuery(document).ready(function($){
 
 				firebase.auth().signInWithEmailAndPassword(email, password)
 				.then(function(){
-					document.cookie = "user=.email";
+					
 					location.href='index1.html';
 					alert('bienvenido');
 				})

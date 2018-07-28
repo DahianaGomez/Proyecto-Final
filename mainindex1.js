@@ -12,7 +12,7 @@
 
   });
 
-  const userName = "Dahiana" ;
+  const userName = firebase.database(.email);
   const database = firebase.database();
 
   $('#enviar').click( function( event ) {
@@ -32,6 +32,7 @@
 });
 
 function ponerMensaje (dahia){
-  console.log(firebase.auth.currentUser);
-  $('.caja').append(dahia.userName + ': ' + dahia.mensaje + '<br>' );
+  console.log(userName);
+  $('.caja').append(userName + ': ' + dahia.mensaje + '<br>' );
 }
+

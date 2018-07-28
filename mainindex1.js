@@ -3,7 +3,7 @@
     authDomain: "foodplace-c4798.firebaseapp.com",
     databaseURL: "https://foodplace-c4798.firebaseio.com",
     projectId: "foodplace-c4798",
-    storageBucket: "",
+    storageBucket: "foodplace-c4798.appspot.com",
     messagingSenderId: "510515919484"
   };
   firebase.initializeApp(config);
@@ -12,10 +12,10 @@
 
   });
 
-  const userName = ();
+  const userName = "Dahiana" ;
   const database = firebase.database();
 
-  $('button').click( function( event ) {
+  $('#enviar').click( function( event ) {
   event.preventDefault();
   var mensaje = $('#mensaje').val();
 
@@ -32,4 +32,6 @@
 });
 
 function ponerMensaje (dahia){
-  $('#caja').append('<p>' + dahia.usuario + ': ' + dahia.mensaje +  '<p>');
+  console.log(firebase.auth.currentUser);
+  $('.caja').append(dahia.userName + ': ' + dahia.mensaje + '<br>' );
+}

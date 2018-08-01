@@ -11,9 +11,9 @@
   jQuery(document).ready(function($) {
 
   });
-
-  const userName = ("usuario");
-  const database = firebase.database();
+const database = firebase.database();
+var userName = ('usuario');
+  
 
   $('#enviar').click( function( event ) {
   event.preventDefault();
@@ -31,8 +31,10 @@
 
 });
 
-function ponerMensaje (usuario){
+function ponerMensaje (dahia){
   console.log(userName);
-  $('.caja').append(userName + ': ' + usuario.mensaje + '<br>' );
+  $('.caja').append(userName + ': ' + dahia.mensaje + '<br>' );
 }
+
+
 

@@ -1,5 +1,3 @@
-
-  // Initialize Firebase
   var config = {
     apiKey: "AIzaSyBNc2Ye2xjMU5QYRztEM8dJcgUlhWtWdNc",
     authDomain: "foodplace-c4798.firebaseapp.com",

@@ -13,3 +13,50 @@ var config = {
  var datos={
  	reseña:$('#resena'),
  }
+
+ const database = firebase.database();
+ var lugares = $ ('.chuzos').val();
+ var datos={
+ 	reseña:$('#ricos'),
+ }
+
+const database = firebase.database();
+ var lugares = $ ('.chorizos').val();
+ var datos={
+ 	reseña:$('#carne'),
+ }
+ const database = firebase.database();
+ var lugares = $ ('.empanadas').val();
+ var datos={
+ 	reseña:$('#picantes'),
+ }
+ const database = firebase.database();
+ var lugares = $ ('.perros').val();
+ var datos={
+ 	reseña:$('#conTodo'),
+ }
+ const database = firebase.database();
+ var lugares = $ ('.pizza').val();
+ var datos={
+ 	reseña:$('#deli'),
+ }
+ const database = firebase.database();
+ var lugares = $ ('.lina').val();
+ var datos={
+ 	reseña:$('#cole'),
+ }
+ const database = firebase.database();
+ var lugares = $ ('.ricas').val();
+ var datos={
+ 	reseña:$('#roci'),
+ }
+ const database = firebase.database();
+ var lugares = $ ('.mandis').val();
+ var datos={
+ 	reseña:$('#rooci'),
+ }
+ const database = firebase.database();
+ var lugares = $ ('.salchipapas').val();
+ var datos={
+ 	reseña:$('#super'),
+ }

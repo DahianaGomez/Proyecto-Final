@@ -11,14 +11,18 @@ var config = {
  const database = firebase.database();
  var lugares = $ ('.container').val();
  var datos={
- 	reseña:$('#resena').val(),
- 	chuzos:$('#ricos').val(),
- 	chorizos:$('carne').val(),
-    empanadas:$('picantes').val(),
-    perros:$('conTodo').val(),
-    pizza:$('deli').val(),
-    lina:$('cole').val(),
-    ricas:$('roci').val(),
-    mandis:$('rocio').val(),
-    salchipapas:$('super').val(),
+ 	reseña:$('#resena'),
+ }
+
+ 
+ const database = firebase.database();
+ var lugares = $ ('.chuzos').val();
+ var datos={
+ 	reseña:$('#ricos'),
+ }
+
+ const database = firebase.database();
+ var lugares = $ ('.chorizos').val();
+ var datos={
+ 	reseña:$('#carne'),
  }

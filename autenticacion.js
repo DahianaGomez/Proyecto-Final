@@ -17,7 +17,7 @@ jQuery(document).ready(function($){
 
 				firebase.auth().signInWithEmailAndPassword(email, password)
 				.then(function(){
-					document.cookie='.email';
+					
 					location.href='index1.html';
 					alert('bienvenido');
 				})
@@ -52,8 +52,3 @@ $ ('.registro').on(
 			});
 		}
 	})
- var identi = function(){     
-        document.cookie = ('.email'); 
-        var name = identi;
-        var value = document.getElementById('.email');
-       document.cookie = name + "=" + value ;}

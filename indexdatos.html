@@ -1,37 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FoodPlace</title>
-	<link href="css/stylechuzos.css" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<title></title>
 </head>
-
-<body >
-	<div class="cabecera">
-	<header>
-		<h1><strong>FoodPlace</strong></h1>
-	</header>
-</div>
-	
-<div class="aqui">
-	<div class="titulo">chuzos</div>
-<img src="imagenes/imagenChuzos.jpg" class="img">
-
+<body>
 
  <p class="hola"></p>
  <p class="ven"></p>
- <p class="listo"></p>
- <p class="p1"></p>
- <p class="p2"></p>
-</div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
 	<script src="javascript/firebase.js"></script>
 	<script src="javascript/autenticacion.js"></script>
 
-		<script>
+	<script>
 		
 		var traer_mensaje = new Promise (function(res, rej) {
 			var mensaje = database.ref("/lugares/chuzos/").once("value").then(function(snapshot){
@@ -39,11 +23,7 @@
 
 				$('.hola').text(data.descripcion);
 				$('.ven').text(data.direccion);
-				$('.listo').text(data.horarios);
-				$('.p1').text(data.productos.chuzos);
-				$('.p2').text(data.productos.chorizos);
-				
-				
+				$('.hola').text(data.descripcion);
 
 				return res(data);
 			});

@@ -103,6 +103,7 @@ body {
 p {
   padding: 40px 11px;
   display: block;
+  background-color: #ff8059;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
@@ -120,8 +121,8 @@ p {
 
   display: block;
   background-color: white;
-  margin: 60px 60px -30px 225px;
-  padding:37px 304px 253px 289px;  
+  margin: 128px 58px -30px 208px;
+  padding: 389px 320px 96px 317px;
   border-radius: 0px 0px 10px 10px;
   -moz-border-radius: 0px 0px 10px 10px;
   -webkit-border-radius: 0px 0px 10px 10px;
@@ -130,67 +131,4 @@ p {
   -moz-box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
   box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
 
-}
-
-.titulo2{
-  padding: 116px 40px 0 31px;
-  margin-top: -127px;
-   width: 183.5%;
-   font-size: 58px;
-   font-family: 'arial black';
-   text-align: initial;
-}
-
-.img2{
-position: relative;
-    top: -177px; /* ajustar los valores para mover la imagen */
-    left: -318px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 30%;
-    border:2px solid #fff;
-    display: block;
-}
-
-.hola2{
- padding: 100px 40px 0 11px;
-  margin-top: -422px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial;
-}
-.ven2{
-padding: 7px 40px 0 11px;
-  margin-top: 21px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial;
- }
-.listo2{
- padding: 1px 40px 0 11px;
-  margin-top: 21px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial;
-}
-.pro1{
- padding: 100px 40px 0 11px;
-  margin-top: -102px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial;
-}
-.pro2{
-  padding: 100px 40px 0 11px;
-  margin-top: -105px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial; 
-  
 }

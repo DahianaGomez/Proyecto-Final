@@ -136,7 +136,7 @@ p {
 
 aside{
  display: block;
- background-color: black;
+ background-color: #a09898;
  color: #fff;
  margin-left: 411px;
  margin-right: -256px;
@@ -213,4 +213,8 @@ p {
 }
 .boton1 {
       margin-left: 289px;
+}
+aside{
+font-size: 30px;
+margin: 10px -239px -515px 409px;
 }

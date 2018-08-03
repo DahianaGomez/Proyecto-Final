@@ -11,9 +11,8 @@
   jQuery(document).ready(function($) {
 
   });
-  window.localStorage.setItem('email', '.email');
 const database = firebase.database();
-var userName = window.localStorage.getItem('email');
+var userName = ('usuario');
   
 
   $('#enviar').click( function( event ) {
@@ -37,19 +36,5 @@ function ponerMensaje (dahia){
   $('.caja').append(userName + ': ' + dahia.mensaje + '<br>' );
 }
 
-$('.boton1').on(
-        'click',
-        function(e){
-            e.preventDefault();
 
-            firebase.auth().signOut()
-            .then(function() {
-              location.href='index1.html';
-                alert("Cerraste sesion.");
-            })
-            .catch(function(error) {
-                  alert("Algo salio mal...");
-          })
-
-        })
 

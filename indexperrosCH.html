@@ -14,13 +14,13 @@
 </div>
   
 <div class="aqui">
-	<div class="titulo">chuzos</div>
-<img src="imagenes/imagenChuzos.jpg" class="img">
+	<div class="titulo5">chuzos</div>
+<img src="imagenes/imagenPerrosCH.jpeg" class="img5">
 
 
- <p class="hola4"></p>
- <p class="ven4"></p>
- <p class="listo4"></p>
+ <p class="hola5"></p>
+ <p class="ven5"></p>
+ <p class="listo5"></p>
  <p class="produ1"></p>
  <p class="produ2"></p>
 </div>
@@ -37,11 +37,11 @@
 			var mensaje = database.ref("/lugares/chuzos/").once("value").then(function(snapshot){
 				var data = snapshot.val();
 
-				$('.hola4').text(data.descripcion);
-				$('.ven4').text(data.direccion);
-				$('.listo4').text(data.horarios);
-				$('.produ1').text(data.productos.chuzos);
-				$('.produ2').text(data.productos.chorizos);
+				$('.hola5').text(data.descripcion);
+				$('.ven5').text(data.direccion);
+				$('.listo5').text(data.horarios);
+				$('.produ1').text(data.productos.perros);
+				$('.produ2').text(data.productos.hamburguesas);
 				
 				
 

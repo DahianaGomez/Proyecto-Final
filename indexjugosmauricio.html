@@ -21,17 +21,58 @@
 
 	</div>
 
-	<div class="aqui">
-	</div>
-<div class="jugosMauricio"></div>
+	<div class="aqui"></div>
+<div class="titulo3">jugos mauricio</div>
+<img src="imagenes/imagenjugosm.jpeg" class="img3">
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<p class="hola3"></p>
+ <p class="ven3"></p>
+ <p class="listo3"></p>
+ <p class="prod1"></p>
+ <p class="prod2"></p>
+ <p class="prod3"></p>
+ <p class="prod4"></p>
+ <p class="prod5"></p>
+ <p class="prod6"></p>
+ <p class="prod7"></p>
+ <p class="prod8"></p>
+ <p class="prod9"></p>
+ <p class="prod10"></p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
 	<script src="javascript/firebase.js"></script>
-	<script src="javascript/daticos.js"></script>
+	<script src="javascript/autenticacion.js"></script>
 
+	<script>
+		
+		var traer_mensaje = new Promise (function(res, rej) {
+			var mensaje = database.ref("/lugares/jugos mauricio/").once("value").then(function(snapshot){
+				var data = snapshot.val();
 
+				$('.hola3').text(data.descripcion);
+				$('.ven3').text(data.direccion);
+				$('.listo3').text(data.horarios);
+				$('.prod1').text(data.productos.borojo/Especial);
+				$('.prod2').text(data.productos.borojo/sencillo);
+				$('.prod3').text(data.productos.borojo/mega/especial);
+				$('.prod4').text(data.productos.jugo/de/naranja/con/ostras);
+				$('.prod5').text(data.productos.jugos/de/naranja/(sencillo));
+				$('.prod6').text(data.productos.jugos/de/naranja/con/kola/granulada/y/miel);
+				$('.prod7').text(data.productos.jugos/naturales/en/agua);
+				$('.prod8').text(data.productos.jugos/naturales/en/leche);
+				$('.prod9').text(data.productos.malteadas/fresa/vainilla/y/arequipe);
+				$('.prod10').text(data.productos.milo);
+				
+				
+
+				return res(data);
+			});
+			if (!mensaje) { return rej();}
+		});
+    </script>
 </body>
 </html>

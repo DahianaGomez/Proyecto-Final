@@ -112,7 +112,7 @@ body {
   display: block;
   background-color: white;
   margin: 60px 60px -30px 225px;
-  padding:37px 304px 606px 353px;
+  padding: 500px 304px 475px  289px;  
   border-radius: 0px 0px 10px 10px;
   -moz-border-radius: 0px 0px 10px 10px;
   -webkit-border-radius: 0px 0px 10px 10px;
@@ -121,4 +121,224 @@ body {
   -moz-box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
   box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
 
+}
+
+.titulo3{
+  padding: 116px 40px 0 519px;
+  margin-top: -1034px;
+   width: 183.5%;
+   font-size: 49px;
+   font-family: 'arial black';
+   text-align: initial;
+}
+
+.img3{
+position: relative;
+    top: -379px; /* ajustar los valores para mover la imagen */
+    left: -100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30%;
+    border:2px solid #fff;
+    display: block;
+}
+
+.hola3{
+ padding: 100px 40px 0 478px;
+  margin-top: -953px;
+   width: 95.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial;
+}
+.ven3{
+padding: 7px 40px 0 478px;
+  margin-top: 21px;
+   width: 94.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial;
+ }
+.listo3{
+ padding: 1px 40px 0 11px;
+  margin-top: 21px;
+   width: 183.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial;
+}
+.bebidas{
+ padding: 1px 40px 0 11px;
+  margin-top: 21px;
+   width: 183.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial;
+ }
+.prod1 {
+     padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod2{
+    padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod3{
+    padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod4{
+    padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+
+.prod5{
+      padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod6{
+      padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod7{
+      padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod8{
+      padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod9{
+      padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod10{
+      padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.sab1{
+   padding: 100px 40px 0 482px;
+  margin-top: -105px;
+   width: 183.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial; 
+}
+.sab2{
+  padding: 100px 40px 0 482px;
+  margin-top: -105px;
+   width: 183.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial; 
+  
+}
+.sab3{
+  padding: 100px 40px 0 482px;
+  margin-top: -105px;
+   width: 183.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial; 
+  }
+  .sab4{
+  padding: 100px 40px 0 482px;
+  margin-top: -105px;
+   width: 183.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial; 
+  }
+  .sab5{
+  padding: 100px 40px 0 482px;
+  margin-top: -105px;
+   width: 183.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial; 
+  }
+  .sab6{
+  padding: 100px 40px 0 482px;
+  margin-top: -105px;
+   width: 183.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial; 
+  }
+  .sab7{
+  padding: 100px 40px 0 482px;
+  margin-top: -105px;
+   width: 183.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial; 
+  }
+  .sab8{
+  padding: 100px 40px 0 482px;
+  margin-top: -105px;
+   width: 183.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial; 
+  }
+  .sab9{
+   padding: 100px 40px 0 482px;
+  margin-top: -105px;
+   width: 183.5%;
+   font-size: large;
+   font-family: 'constancia';
+   text-align: initial;  
+  }
+.Sabores{
+  padding: 100px 40px 0 482px;
+  margin-top: -135px;
+   width: 183.5%;
+   font-size: 30px;
+   font-family: 'constancia';
+   text-align: initial;  
+}
+.mau {
+  width: 34%;
+    margin: -332px -27px -468px 797px;
 }

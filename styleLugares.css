@@ -122,7 +122,7 @@ p {
   display: block;
   background-color: white;
   margin: 122px 73px -30px 208px;
-  padding: 84px 320px 96px 317px;
+      padding: 11px 320px 351px 317px;
   border-radius: 0px 0px 10px 10px;
   -moz-border-radius: 0px 0px 10px 10px;
   -webkit-border-radius: 0px 0px 10px 10px;
@@ -156,46 +156,22 @@ button:hover {
 }
 
 .chuzosGordo {
-  margin: 16px 10px 10px -202px;
+  margin: 216px 10px 10px -202px;
   padding: 9px 21px;
 }
-.lina {
-  padding: 9px 21px;
-  margin: 10px 10px 10px -200px;
-}
-.salchipapas {
-  margin: 10px 15px -73px -201px;
-  padding: 9px 36px 9px 37px;
-}
-.simba1 {
-  padding: 9px 8px;
-  margin: 34px -75px -107px -202px;
-}
-.simba2{
-  margin: 30px 10px 10px -202px;
-  padding: 10px 8px;
-}
+
 .empanadas{
-  margin: 11px 61px 10px -201px;
-  padding: 10px 38px;
+      margin: 19px 61px 10px -201px;
+        padding: 10px 38px;
 }
 .perritos {
   padding: 10px 15px;
   margin-left: -201px;
   margin-top: 10px;
 }
-.pizza{
-  padding: 8px 61px;
-  margin-left: -200px;
-  margin-top: 18px;
-}
+
 .chuzos{
   margin-left: -200px;
   padding: 9px 14px;
   margin-top: 18px;
-}
-.jugosMauricio{
- margin-top: 17px;
- margin-left: -201px;
- padding: 9px 26px;
 }

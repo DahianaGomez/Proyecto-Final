@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FoodPlace</title>
+  <link href="css/styleperrosCH.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+</head>
+
+<body >
+  <div class="cabecera">
+  <header>
+    <h1><strong>FoodPlace</strong></h1>
+  </header>
+</div>
+  
+<div class="aqui">
+	<div class="titulo5">chuzos</div>
+<img src="imagenes/imagenPerrosCH.jpeg" class="img5">
+
+
+ <p class="hola5"></p>
+ <p class="ven5"></p>
+ <p class="listo5"></p>
+ <p class="produ1"></p>
+ <p class="produ2"></p>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+	<script src="javascript/firebase.js"></script>
+	<script src="javascript/autenticacion.js"></script>
+
+		<script>
+		
+		var traer_mensaje = new Promise (function(res, rej) {
+			var mensaje = database.ref("/lugares/chuzos/").once("value").then(function(snapshot){
+				var data = snapshot.val();
+
+				$('.hola5').text(data.descripcion);
+				$('.ven5').text(data.direccion);
+				$('.listo5').text(data.horarios);
+				$('.produ1').text(data.productos.perros);
+				$('.produ2').text(data.productos.hamburguesas);
+				
+				
+
+				return res(data);
+			});
+			if (!mensaje) { return rej();}
+		});
+    </script>
+</div>
+</body>
+</html>

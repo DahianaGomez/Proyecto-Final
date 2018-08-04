@@ -112,7 +112,7 @@ body {
   display: block;
   background-color: white;
   margin: 60px 60px -30px 225px;
-  padding: 489px 304px 451px  289px;  
+  padding: 500px 304px 450px  289px;  
   border-radius: 0px 0px 10px 10px;
   -moz-border-radius: 0px 0px 10px 10px;
   -webkit-border-radius: 0px 0px 10px 10px;
@@ -176,94 +176,94 @@ padding: 7px 40px 0 478px;
    font-family: 'constancia';
    text-align: initial;
  }
-.prod1{
- padding: 100px 40px 0 482px;
-  margin-top: -102px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial;
+.prod1 {
+     padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
 }
 .prod2{
-  padding: 100px 40px 0 482px;
-  margin-top: -105px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial; 
-  
+    padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
 }
 .prod3{
-  padding: 100px 40px 0 482px;
+    padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod4{
+    padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+
+.prod5{
+      padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod6{
+      padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod7{
+      padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod8{
+      padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod9{
+      padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.prod10{
+      padding: 100px 40px 0 484px;
+    margin-top: -105px;
+    width: 183.5%;
+    font-size: large;
+    font-family: 'constancia';
+    text-align: initial;
+}
+.sab1{
+   padding: 100px 40px 0 482px;
   margin-top: -105px;
    width: 183.5%;
    font-size: large;
    font-family: 'constancia';
    text-align: initial; 
-  }
-  .prod4{
-  padding: 100px 40px 0 482px;
-  margin-top: -105px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial; 
-  }
-  .prod5{
-  padding: 100px 40px 0 482px;
-  margin-top: -105px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial; 
-  }
-  .prod6{
-  padding: 100px 40px 0 482px;
-  margin-top: -105px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial; 
-  }
-  .prod7{
-  padding: 100px 40px 0 482px;
-  margin-top: -105px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial; 
-  }
-  .prod8{
-  padding: 100px 40px 0 482px;
-  margin-top: -105px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial; 
-  }
-  .prod9{
-  padding: 100px 40px 0 482px;
-  margin-top: -105px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial; 
-  }
-  .prod10{
-  padding: 100px 40px 0 482px;
-  margin-top: -105px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial; 
-  }
-  .sab1{
- padding: 100px 40px 0 482px;
-  margin-top: -102px;
-   width: 183.5%;
-   font-size: large;
-   font-family: 'constancia';
-   text-align: initial;
 }
 .sab2{
   padding: 100px 40px 0 482px;
@@ -323,10 +323,18 @@ padding: 7px 40px 0 478px;
    text-align: initial; 
   }
   .sab9{
-  padding: 100px 40px 0 482px;
+   padding: 100px 40px 0 482px;
   margin-top: -105px;
    width: 183.5%;
    font-size: large;
    font-family: 'constancia';
-   text-align: initial; 
+   text-align: initial;  
   }
+.Sabores{
+  padding: 100px 40px 0 482px;
+  margin-top: -105px;
+   width: 183.5%;
+   font-size: 30px;
+   font-family: 'constancia';
+   text-align: initial;  
+}

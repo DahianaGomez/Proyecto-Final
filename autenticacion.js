@@ -17,7 +17,8 @@ jQuery(document).ready(function($){
 
 				firebase.auth().signInWithEmailAndPassword(email, password)
 				.then(function(){
-					document.cookie='.email';
+					 window.localStorage.setItem('email', document.getElementsByTagName("input")[0].value);
+					 var userName = window.localStorage.getItem('email');
 					location.href='index1.html';
 					alert('bienvenido');
 				})
@@ -43,6 +44,8 @@ $ ('.registro').on(
 		else {
 			firebase.auth().createUserWithEmailAndPassword(email, password)
 			.then(function(){
+				 window.localStorage.setItem('email', document.getElementsByTagName("input")[2].value);
+				 var userName = window.localStorage.getItem('email');
 				location.href='index1.html';
 				alert('Registro con exito');
 			})
@@ -52,8 +55,3 @@ $ ('.registro').on(
 			});
 		}
 	})
- var identi = function(){     
-        document.cookie = ('.email'); 
-        var name = identi;
-        var value = document.getElementById('.email');
-       document.cookie = name + "=" + value ;}

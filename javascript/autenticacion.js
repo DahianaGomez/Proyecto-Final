@@ -1,4 +1,4 @@
-<<<<<<< HEAD:javascript/autenticacion.js
+
 jQuery(document).ready(function($){
 	$ ('.login').on(
 		'submit',
@@ -56,7 +56,7 @@ $ ('.registro').on(
 			});
 		}
 	})
-=======
+
 jQuery(document).ready(function($){
 	$ ('.login').on(
 		'submit',
@@ -114,4 +114,4 @@ $ ('.registro').on(
 			});
 		}
 	})
->>>>>>> origin/gh-page:autenticacion.js
+

@@ -24,7 +24,6 @@
 	<div class="aqui"></div>
 <div class="titulo3">jugos mauricio</div>
 <img src="imagenes/imagenJugosM.jpeg" class="img3">
-<<<<<<< HEAD
 
  <p class="hola3"></p>
  <p class="ven3"></p>
@@ -42,24 +41,6 @@
  <img class="mau" src="imagenes/mauricio.jpg">
  <p class="Sabores"><strong>Sabores</strong></p>
 
-=======
-
- <p class="hola3"></p>
- <p class="ven3"></p>
- <p class="listo3"></p>
- <p class="prod1"></p>
- <p class="prod2"></p>
- <p class="prod3"></p>
- <p class="prod4"></p>
- <p class="prod5"></p>
- <p class="prod6"></p>
- <p class="prod7"></p>
- <p class="prod8"></p>
- <p class="prod9"></p>
- <p class="prod10"></p>
- 
- <p class="Sabores"><strong>Sabores</strong></p>
->>>>>>> origin/gh-page
  <p class="sab1"></p>
  <p class="sab2"></p>
  <p class="sabd3"></p>
@@ -78,7 +59,6 @@
 	<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
 	<script src="javascript/firebase.js"></script>
 	<script src="javascript/autenticacion.js"></script>
-<<<<<<< HEAD
 
 	<script>
 		
@@ -109,43 +89,6 @@
 				$('.sab9').text(data.productos.bebidas.saboresjugos.tomatedearbol);
 				
 				
-=======
-
-	<script>
-		
-		var traer_mensaje = new Promise (function(res, rej) {
-			var mensaje = database.ref("/lugares/jugos mauricio/").once("value").then(function(snapshot){
-				var data = snapshot.val();
-
-				$('.hola3').text(data.descripcion);
-				$('.ven3').text(data.direccion);
-				$('.listo3').text(data.horarios);
-				$('.prod1').text(data.productos.bebidas.borojoEspecial);
-				$('.prod2').text(data.productos.bebidas.borojoSencillo);
-				$('.prod3').text(data.productos.bebidas.borojoMegaEspecial);
-				$('.prod4').text(data.productos.bebidas.jugoOstras);
-				$('.prod5').text(data.productos.bebidas.jugosNsen);
-				$('.prod6').text(data.productos.bebidas.jugoskoMi);
-				$('.prod7').text(data.productos.bebidas.jugosNagua);
-				$('.prod8').text(data.productos.bebidas.jugosNleche);
-				$('.prod9').text(data.productos.bebidas.malteadaFVA);
-				$('.prod10').text(data.productos.bebidas.milo);
-				$('.sab1').text(data.productos.bebidas.saboresjugos.banano);
-				$('.sab2').text(data.productos.bebidas.saboresjugos.fresa);
-				$('.sab3').text(data.productos.bebidas.saboresjugos.guanabana);
-				$('.sab4').text(data.productos.bebidas.saboresjugos.guayaba);
-				$('.sab5').text(data.productos.bebidas.saboresjugos.lulo);
-				$('.sab6').text(data.productos.bebidas.saboresjugos.mango);
-				$('.sab7').text(data.productos.bebidas.saboresjugos.maracuya);
-				$('.sab8').text(data.productos.bebidas.saboresjugos.mora);
-				$('.sab9').text(data.productos.bebidas.saboresjugos.tomatedearbol);
-				
-
-
-
-				
-
->>>>>>> origin/gh-page
 				return res(data);
 			});
 			if (!mensaje) { return rej();}

@@ -36,6 +36,30 @@ function ponerMensaje (dahia){
   console.log(userName);
   $('.caja').append(userName + ': ' + dahia.mensaje + '<br>' );
 }
+function iterar(data){
+  for ( var ciclo in data){
+    if (data.hasOwnProperty(ciclo)){
+      var element = data[ciclo];
+      var paraCambiar ={
+        usuario: element.usuario,
+        mensaje: element.mensaje,
+      };
+      ponerMensaje(element);
+    }
+  }
+}
+
+var traerMensajes = new Promise(function(res, rej){
+  var mensajes = database.ref('/chat/').once('value').then(function(snapshot){
+    return res( snapshot.val() );
+
+  });
+  if (!mensajes){return rej();}
+});
+
+traerMensajes.then(function(data){
+  iterar(data);
+});
 
 $('.boton1').on(
         'click',

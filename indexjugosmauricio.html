@@ -25,7 +25,7 @@
 <div class="titulo3">jugos mauricio</div>
 <img src="imagenes/imagenjugosm.jpeg" class="img3">
 
-<p class="hola3"></p>
+ <p class="hola3"></p>
  <p class="ven3"></p>
  <p class="listo3"></p>
  <p class="prod1"></p>
@@ -38,6 +38,16 @@
  <p class="prod8"></p>
  <p class="prod9"></p>
  <p class="prod10"></p>
+ <p class="sab1"></p>
+ <p class="sab2"></p>
+ <p class="sabd3"></p>
+ <p class="sab4"></p>
+ <p class="sab5"></p>
+ <p class="sab6"></p>
+ <p class="sab7"></p>
+ <p class="sab8"></p>
+ <p class="sab9"></p>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -56,17 +66,29 @@
 				$('.hola3').text(data.descripcion);
 				$('.ven3').text(data.direccion);
 				$('.listo3').text(data.horarios);
-				$('.prod1').text(data.productos.borojo/Especial);
-				$('.prod2').text(data.productos.borojo/sencillo);
-				$('.prod3').text(data.productos.borojo/mega/especial);
-				$('.prod4').text(data.productos.jugo/de/naranja/con/ostras);
-				$('.prod5').text(data.productos.jugos/de/naranja/(sencillo));
-				$('.prod6').text(data.productos.jugos/de/naranja/con/kola/granulada/y/miel);
-				$('.prod7').text(data.productos.jugos/naturales/en/agua);
-				$('.prod8').text(data.productos.jugos/naturales/en/leche);
-				$('.prod9').text(data.productos.malteadas/fresa/vainilla/y/arequipe);
-				$('.prod10').text(data.productos.milo);
+				$('.prod1').text(data.productos.bebidas.borojoEspecial);
+				$('.prod2').text(data.productos.bebidas.borojoSencillo);
+				$('.prod3').text(data.productos.bebidas.borojoMegaEspecial);
+				$('.prod4').text(data.productos.bebidas.jugoOstras);
+				$('.prod5').text(data.productos.bebidas.jugosNsen);
+				$('.prod6').text(data.productos.bebidas.jugoskoMi);
+				$('.prod7').text(data.productos.bebidas.jugosNagua);
+				$('.prod8').text(data.productos.bebidas.jugosNleche);
+				$('.prod9').text(data.productos.bebidas.malteadaFVA);
+				$('.prod10').text(data.productos.bebidas.milo);
+				$('.sab1').text(data.productos.saboresjugos.banano);
+				$('.sab2').text(data.productos.saboresjugos.fresa);
+				$('.sab3').text(data.productos.saboresjugos.guanabana;
+				$('.sab4').text(data.productos.saboresjugos.guayaba);
+				$('.sab5').text(data.productos.saboresjugos.lulo);
+				$('.sab6').text(data.productos.saboresjugos.mango);
+				$('.sab7').text(data.productos.saboresjugos.maracuya);
+				$('.sab8').text(data.productos.saboresjugos.mora);
+				$('.sab9').text(data.productos.saboresjugos.tomatedearbol);
 				
+
+
+
 				
 
 				return res(data);

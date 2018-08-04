@@ -34,14 +34,14 @@ var userName = window.localStorage.getItem('email');
 
 function ponerMensaje (dahia){
   console.log(userName);
-  $('.caja').append(userName + ': ' + dahia.mensaje + '<br>' );
+  $('.caja').append(dahia.usuario + ': ' + dahia.mensaje + '<br>' );
 }
 function iterar(data){
   for ( var ciclo in data){
     if (data.hasOwnProperty(ciclo)){
       var element = data[ciclo];
       var paraCambiar ={
-        usuario: element.usuario,
+        usuario: element.userName,
         mensaje: element.mensaje,
       };
       ponerMensaje(element);

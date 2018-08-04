@@ -1,0 +1,134 @@
+header  {
+  display: block;
+
+  background-color: #ad2800;
+
+  padding: 40px 11px;
+  border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border: 1px solid none;
+  -webkit-box-shadow: inset -22px 10px 50px 8px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -22px 10px 50px 8px rgba(0,0,0,0.75);
+  box-shadow: inset -22px 10px 50px 8px rgba(0,0,0,0.75);
+  margin-top: -33px;
+  margin-bottom: -128px;
+  margin-left: 62px;
+  margin-right: 20px;
+  width: 77.5%;
+
+
+
+}
+h1 {
+  text-align: center;
+  color: black;
+  text-shadow: 4px 4px 2px rgba(255, 255, 255, 1);
+  font-family: unset;
+  font-size: 60px;
+  margin-bottom: 55px;
+  margin-top: -1px;
+
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes rubberBand {
+ 0% {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+ }
+ 30% {
+   -webkit-transform: scale3d(1.25, 0.75, 1);
+   transform: scale3d(1.25, 0.75, 1);
+ }
+ 40% {
+   -webkit-transform: scale3d(0.75, 1.25, 1);
+   transform: scale3d(0.75, 1.25, 1);
+ }
+ 50% {
+   -webkit-transform: scale3d(1.15, 0.85, 1);
+   transform: scale3d(1.15, 0.85, 1);
+ }
+ 65% {
+   -webkit-transform: scale3d(.95, 1.05, 1);
+   transform: scale3d(.95, 1.05, 1);
+ }
+ 75% {
+   -webkit-transform: scale3d(1.05, .95, 1);
+   transform: scale3d(1.05, .95, 1);
+ }
+ 100% {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+ }
+}
+@keyframes rubberBand {
+ 0% {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+ }
+ 30% {
+   -webkit-transform: scale3d(1.25, 0.75, 1);
+   transform: scale3d(1.25, 0.75, 1);
+ }
+ 40% {
+   -webkit-transform: scale3d(0.75, 1.25, 1);
+   transform: scale3d(0.75, 1.25, 1);
+ }
+ 50% {
+   -webkit-transform: scale3d(1.15, 0.85, 1);
+   transform: scale3d(1.15, 0.85, 1);
+ }
+ 65% {
+   -webkit-transform: scale3d(.95, 1.05, 1);
+   transform: scale3d(.95, 1.05, 1);
+ }
+ 75% {
+   -webkit-transform: scale3d(1.05, .95, 1);
+   transform: scale3d(1.05, .95, 1);
+ }
+ 100% {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+ }
+}
+
+body {
+ background-image: url("https://rssamboro-web.s3-us-west-1.amazonaws.com/20140910113645-E18-107_PO-150802000000.jpg?v=20150624153756");
+}
+p {
+  padding: 40px 11px;
+  display: block;
+  background-color: #ff8059;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+  text-align: left;
+  font-size: 29px;
+  width: 27%;
+  padding: -14px;
+  margin: -207px -192px;
+}
+.cabecera {
+ margin: 5px -174px -18px 146px;
+}
+.aqui {
+
+  display: block;
+  background-color: white;
+  margin: 128px 58px -30px 208px;
+  padding: 389px 320px 96px 317px;
+  border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  border: 1px none #f7eeea;
+  -webkit-box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
+  -moz-box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
+  box-shadow: inset -22px -10px 50px 8px rgba(0,0,0,0.69);
+
+}
